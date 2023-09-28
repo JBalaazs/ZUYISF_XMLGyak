@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XY_orarend>
+
+    <!--Hétfő-->
+    <ora id="1" típus="előadás">
+        
+        <targy>Szoftvertesztelés</targy>
+        
+        <idopont>
+
+            <nap>Hétfő</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+
+        </idopont>
+
+        <helyszin>In/103</helyszin>
+        <oktato>Hornyák Olivér</oktato>
+        <szak>Mérnökinformatika</szak>
+
+    </ora>
+
+    <ora id="2" típus="gyakorlat">
+        
+        <targy>Szoftvertesztelés</targy>
+        
+        <idopont>
+
+            <nap>Hétfő</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+
+        </idopont>
+
+        <helyszin>In/103</helyszin>
+        <oktato>Hornyák Olivér</oktato>
+        <szak>Mérnökinformatika</szak>
+
+    </ora>
+
+    <ora id="3" típus="előadás">
+        
+        <targy>WEB technológiák</targy>
+        
+        <idopont>
+
+            <nap>Hétfő</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+
+        </idopont>
+
+        <helyszin>XXX A1 III. em. 305</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Mérnökinformatika</szak>
+
+    </ora>
+
+    <ora id="4" típus="gyakorlat">
+        
+        <targy>WEB technológiák</targy>
+        
+        <idopont>
+
+            <nap>Hétfő</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+
+        </idopont>
+
+        <helyszin>In/103</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Mérnökinformatika</szak>
+
+    </ora>
+
+    <!--Kedd-->
+    <ora id="1" típus="előadás">
+        
+        <targy>Mesterséges intelligencia</targy>
+        
+        <idopont>
+
+            <nap>Kedd</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+
+        </idopont>
+
+        <helyszin>XXXII A1 magasfsz</helyszin>
+        <oktato>Tamás Judit</oktato>
+        <szak>Mérnökinformatika</szak>
+
+    </ora>
+
+    <ora id="2" típus="előadás">
+        
+        <targy>Adatkezelés XML-ben</targy>
+        
+        <idopont>
+
+            <nap>Kedd</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+
+        </idopont>
+
+        <helyszin>XXXII A1 magasfsz</helyszin>
+        <oktato>Bednarik László</oktato>
+        <szak>Mérnökinformatika</szak>
+
+    </ora>
+
+    <ora id="3" típus="előadás">
+        
+        <targy>WEB-es alkalmazások</targy>
+        
+        <idopont>
+
+            <nap>Kedd</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+
+        </idopont>
+
+        <helyszin>In/101</helyszin>
+        <oktato>Árvai László Lajos</oktato>
+        <szak>Mérnökinformatika</szak>
+
+    </ora>
+
+    <ora id="4" típus="gyakorlat">
+        
+        <targy>WEB-es alkalmazások</targy>
+        
+        <idopont>
+
+            <nap>Kedd</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+
+        </idopont>
+
+        <helyszin>In/101</helyszin>
+        <oktato>Mileff Péter</oktato>
+        <szak>Mérnökinformatika</szak>
+
+    </ora>
+
+    <!--Szerda-->
+    <ora id="1" típus="gyakorlat">
+        
+        <targy>Adatkezelés XML-ben</targy>
+        
+        <idopont>
+
+            <nap>Szerda</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+
+        </idopont>
+
+        <helyszin>In/101</helyszin>
+        <oktato>Bednarik László</oktato>
+        <szak>Mérnökinformatika</szak>
+
+    </ora>
+
+    <ora id="2" típus="előadás">
+        
+        <targy>Integrált vállalati rendszerek</targy>
+        
+        <idopont>
+
+            <nap>Szerda</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+
+        </idopont>
+
+        <helyszin>X A1 II. em. 218</helyszin>
+        <oktato>Samad Dadvandipour</oktato>
+        <szak>Mérnökinformatika</szak>
+
+    </ora>
+
+    <ora id="3" típus="gyakorlat">
+        
+        <targy>Integrált vállalati rendszerek</targy>
+        
+        <idopont>
+
+            <nap>Szerda</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+
+        </idopont>
+
+        <helyszin>In/15</helyszin>
+        <oktato>Forrai Mónika</oktato>
+        <szak>Mérnökinformatika</szak>
+
+    </ora>
+
+    <!--Csütörtök-->
+    <ora id="1" típus="">
+        
+        <targy>Mesterséges intelligencia</targy>
+        
+        <idopont>
+
+            <nap>Csütörtök</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+
+        </idopont>
+
+        <helyszin>I. A2 fsz.</helyszin>
+        <oktato>Fazekas Levente</oktato>
+        <szak>Mérnökinformatika</szak>
+
+    </ora>
+
+</XY_orarend>

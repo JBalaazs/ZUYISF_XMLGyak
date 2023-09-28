@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+}
+
+.orarend{
+    background-color: aliceblue;
+    width: 100%;
+}
+
+th, td {
+    border: solid 2px gray;
+    padding: 20px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: white;
+}

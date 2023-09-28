@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<konferencia>
+
+    <cim>MultiScience</cim>
+    <hallgatók>
+    
+        <hallgató>
+            
+            <név>Kovács Laura</név>
+            <lakcím>3529 Miskolc, Rákospatak út 11.</lakcím>
+
+            <név>Szabó Gábor</név>
+            <lakcím>3527 Miskolc, Kazinczy út 5.</lakcím>
+
+            <név>Nagy Petra</név>
+            <lakcím>3525 Miskolc, Rózsahegy utca 18.</lakcím>
+
+            <név>Horváth Márk</név>
+            <lakcím>3529 Miskolc, Szentpáli utca 9.</lakcím>
+
+            <név>Tóth Anna</név>
+            <lakcím>3534 Miskolc, Petőfi tér 7.</lakcím>
+
+        </hallgató>
+
+    </hallgatók>
+
+    <helyszín>Miskolci Egyetem, XXXVI</helyszín>
+
+    <előadó>
+        
+        <név>Molnár Eszter</név>
+        <adószám>12345678-9-01</adószám>
+        <lakcím>1138 Budapest, Váci út 22.</lakcím>
+
+    </előadó>
+
+    <dátum>2023. október 12-13.</dátum>
+
+</konferencia>
