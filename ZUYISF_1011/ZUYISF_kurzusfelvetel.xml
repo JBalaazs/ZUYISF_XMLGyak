@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ZUYISF_kurzusfelvetel tanev="3" egyetem="ME">
+
+    <hallgato>
+        <hnev></hnev>
+        <szulev></szulev>
+        <szak evf="5"></szak>
+    </hallgato>
+    
+    <kurzusok>
+        <kurzus id="GEIAL31H-B">
+
+            <kurzusnev>Szoftvertesztelés</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/103</hely>
+            <idopont>Hétfő 10:00-12:00</idopont>
+            <oktatok>Dr. Hornyák Olivér</oktatok>
+
+        </kurzus>
+    </kurzusok>
+    <kurzusok>
+        <kurzus id="GEIAL331-B">
+
+            <kurzusnev>Web technológiák 1</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXX A1 III. em. 305</hely>
+            <idopont>Hétfő 14:00-16:00</idopont>
+            <oktatok>Dr. Agárdi Anita</oktatok>
+
+        </kurzus>
+    </kurzusok>
+    <kurzusok>
+        <kurzus id="GEIAK130-B">
+
+            <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXII A1 magasfsz</hely>
+            <idopont>Kedd 10:00-12:00</idopont>
+            <oktatok>Kunné Dr. Tamás Judit</oktatok>
+
+        </kurzus>
+    </kurzusok>
+    <kurzusok>
+        <kurzus id="GEIAL332-B">
+
+            <kurzusnev>Adatkezelés XML-ben</kurzusnev>
+            <kredit>5</kredit>
+            <hely>XXXII A1 magasfsz</hely>
+            <idopont>Kedd 12:00-14:00</idopont>
+            <oktatok>Dr. Bednarik László</oktatok>
+
+        </kurzus>
+    </kurzusok>
+    <kurzusok>
+        <kurzus id="GEIAL336-B">
+
+            <kurzusnev>Web-es alkalmazások (C#)</kurzusnev>
+            <kredit>5</kredit>
+            <hely>In/101</hely>
+            <idopont>Kedd 14:00-16:00</idopont>
+            <oktatok>Árvai László Lajos</oktatok>
+
+        </kurzus>
+    </kurzusok>
+    <kurzusok>
+        <kurzus id="GEIAK120-B">
+
+            <kurzusnev>Integrált vállalati rendszerek</kurzusnev>
+            <kredit>5</kredit>
+            <hely>X A1 II. em. 218</hely>
+            <idopont>Szerda 12:00-14:00</idopont>
+            <oktatok>Dr. Dadvandipour Samad</oktatok>
+
+        </kurzus>
+    </kurzusok>
+    <kurzusok>
+        <kurzus id="MIGEBIDFM2" jovahagyas="igen" nyelv="angol">
+
+            <kurzusnev>Idegen nyelv felmentett 2</kurzusnev>
+            <kredit>0</kredit>
+
+        </kurzus>
+    </kurzusok>
+    
+
+
+</ZUYISF_kurzusfelvetel>
