@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Fesztivál_ZUYISF xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="XMLSchemaZUYISF.xsd">
+
+    <!--Fesztivál-->
+    <fesztivál FESZ_ID="1">
+        
+        <név>Balaton Sound</név>
+        <helyszín>Zamárdi</helyszín>
+        <év>2023</év>
+
+    </fesztivál>
+
+    <fesztivál FESZ_ID="2">
+        
+    <név>Telekom VOLT Fesztivál</név>
+    <helyszín>Sopron</helyszín>
+    <év>2022</év>
+
+    </fesztivál>
+
+    <!--Tulajdonos-->
+    <tulajdonos T_ID="10" fesztivál="1">
+
+        <név>Sziget Produkciós Iroda</név>
+        <adószám>54789621-7-13</adószám>
+        <alapítás>2007</alapítás>
+        <bevétel>700568908</bevétel>
+
+    </tulajdonos>
+
+    
+    <tulajdonos T_ID="14" fesztivál="2">
+
+        <név>Never Say Never</név>
+        <adószám>57964230-5-64</adószám>
+        <alapítás>1993</alapítás>
+        <bevétel>98045695</bevétel>
+
+    </tulajdonos>
+
+    <!--Fellépő-->
+    <fellépő FEL_ID="17" fesztivál="1">
+        
+        <név>Hardwell</név>
+        <ország>Hollandia</ország>
+        <díj>750000</díj>
+
+    </fellépő>
+
+    <fellépő FEL_ID="18" fesztivál="2">
+        
+        <név>Muse</név>
+        <ország>Anglia</ország>
+        <díj>1000000</díj>
+
+    </fellépő>
+
+    <!--Bár-->
+    <bár B_ID="30" fesztivál="1">
+        
+        <név>Heineken stand</név>
+        <cég>Heineken</cég>
+        <ital>Heineken 0.0</ital>
+        <ital>Heineken Original</ital>
+        <ital>Heineken Silver</ital>
+
+    </bár>
+
+    <bár B_ID="31" fesztivál="2">
+        
+        <név>Borsodi Sörsátor</név>
+        <cég>Borsodi Sörgyár Kft.</cég>
+        <ital>Borsodi Friss</ital>
+        <ital>Staropramen</ital>
+
+    </bár>
+
+        <!--Alkalmazott-->
+    <alkalmazott A_ID="25" munkahely="30">
+
+            <név>Kiss Tamás</név>
+            <fizetés>500000</fizetés>
+            <műszak>14-18</műszak>
+            <műszak>22-24</műszak>
+    
+    </alkalmazott>
+    
+    <alkalmazott A_ID="26" munkahely="31">
+    
+            <név>Kovács Ferenc</név>
+            <fizetés>600000</fizetés>
+            <műszak>10-14</műszak>
+            <műszak>18-22</műszak>
+    
+    </alkalmazott>
+
+    <!--Résztvevő-->
+    <résztvevő K_ID="1000" fesztivál="1">
+        
+        <név>Farkas Zoltán</név>
+        <lakcím>
+        
+            <település>Miskolc</település>
+            <utca>Aba</utca>
+            <házszám>12</házszám>
+
+        </lakcím>
+
+    </résztvevő>
+
+    <résztvevő K_ID="1001" fesztivál="2">
+        
+        <név>Zöld Bence</név>
+        <diákigazolvány>81536749215</diákigazolvány>
+        <lakcím>
+        
+            <település>Budapest</település>
+            <utca>Jókai Mór</utca>
+            <házszám>51</házszám>
+
+        </lakcím>
+
+    </résztvevő>
+
+    <!--Nyelvtudás-->
+    <nyelvtudás NY_ID="2000">
+        
+        <nyelv>Angol</nyelv>
+        <szint>B2</szint>
+
+    </nyelvtudás>
+    <nyelvtudás NY_ID="2001">
+        
+        <nyelv>Angol</nyelv>
+        <szint>C2</szint>
+
+    </nyelvtudás>
+
+    <!--Közvélemény-->
+    <közvélemény Ko_ID="1" résztvevő="1000" nyelvtudás="2000">
+        
+        <kérdező>Kadarkai Endre</kérdező>
+    
+    </közvélemény>
+
+    <közvélemény Ko_ID="2" résztvevő="1001" nyelvtudás="2001">
+        
+        <kérdező>Bence Éva</kérdező>
+    
+    </közvélemény>
+
+</Fesztivál_ZUYISF>
