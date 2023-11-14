@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Tárgyalás_ZUYISF xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="XMLSchemaZUYISF.xsd">
+
+    <!--Ügyvéd-->
+    <Ügyvéd Ügyvédi_ID="1" Védi="456789AB">
+    
+        <Szakterület>Büntetőjog</Szakterület>
+
+        <Telefonszám>+36204579450</Telefonszám>
+        <Telefonszám>+36304796185</Telefonszám>
+        <Telefonszám>+36507963418</Telefonszám>
+
+        <Ügyvéd_Név>Dr. Kovács Mihály</Ügyvéd_Név>
+    
+    </Ügyvéd>
+
+    <Ügyvéd Ügyvédi_ID="2" Védi="785216CD">
+    
+        <Szakterület>Szabálysértési jog</Szakterület>
+
+        <Telefonszám>+36709614250</Telefonszám>
+        <Telefonszám>+36704987134</Telefonszám>
+        <Telefonszám>+36207943157</Telefonszám>
+
+        <Ügyvéd_Név>Dr. Tóth Eszter</Ügyvéd_Név>
+
+    </Ügyvéd>
+
+    <!--Vádlott-->
+    <Vádlott Személyi_ig="456789AB">
+
+        <Lakcím>1111 Budapest, Jókai Mór u. 51</Lakcím>
+        <Szülidő>1971-10-11</Szülidő>
+        <Kor>52</Kor>
+        <Priusz>0</Priusz>
+        <Név>
+            <Vnév>Kovács</Vnév>
+            <Knév>Ferenc</Knév>
+        </Név>
+
+    </Vádlott>
+
+    <Vádlott Személyi_ig="785216CD">
+
+        <Lakcím>3525 Miskolc, Aba u. 12</Lakcím>
+        <Szülidő>1999-05-21</Szülidő>
+        <Kor>24</Kor>
+        <Priusz>1</Priusz>
+        <Név>
+            <Vnév>Kiss</Vnév>
+            <Knév>Tamás</Knév>
+        </Név>
+
+    </Vádlott>
+
+    <!--Bűnös-e-->
+    <Bűnös-e Vádlott="456789AB" Ügy="3000">
+
+        <Vád>Súlyos testi sértés</Vád>
+
+    </Bűnös-e>
+
+    <Bűnös-e Vádlott="785216CD" Ügy="3001">
+
+        <Vád>Közlekedési szabálysértés</Vád>
+
+    </Bűnös-e>
+
+    <!--Ügy-->
+    <Ügy Ügyszám_ID="3000">
+    
+        <Típus>Büntetőjogi eljárás</Típus>
+        <Dátum>2023-11-09</Dátum>
+        <Állapot>Folyamatban</Állapot>
+    
+    </Ügy>
+
+    <Ügy Ügyszám_ID="3001">
+    
+        <Típus>Szabálysértési eljárás</Típus>
+        <Dátum>2023-08-16</Dátum>
+        <Állapot>Elbírálás alatt</Állapot>
+    
+    </Ügy>
+
+    <!--Ítéletet_hoz-->
+    <Ítéletet_hoz Ügy="3000" Bíró="1000">
+    
+        <Ügyek_száma>6</Ügyek_száma>
+        <Ítélet>Bűnösnek találtatik a vádlott, 2 év felfüggesztett szabadságvesztésre ítélve.</Ítélet>
+    
+    </Ítéletet_hoz>
+
+    <Ítéletet_hoz Ügy="3001" Bíró="1000">
+        
+        <Ügyek_száma>4</Ügyek_száma>
+        <Ítélet>Bírság megfizetésére kötelezve, 100 000 forint összegben.</Ítélet>
+
+    </Ítéletet_hoz>
+
+    <!--Bíró-->
+    <Bíró Bíró_ID="1000">
+        
+        <Bíró_Név>Dr. Varga Júlia</Bíró_Név>
+        <Tapasztalat>15 év</Tapasztalat>
+        <Tanítványok>3</Tanítványok>
+
+    </Bíró>
+
+    <!--Jegyző-->
+    <Jegyző Jegyző_ID="100" Rögzítés="1000">
+    
+        <Jegyző_Név>Dr. Tóth Ildikó</Jegyző_Név>
+        <Munkaidő>Teljes munkaidő</Munkaidő>
+        <Nyelvtudás>Angol, Német, Francia</Nyelvtudás>
+
+    </Jegyző>
+
+
+</Tárgyalás_ZUYISF>
