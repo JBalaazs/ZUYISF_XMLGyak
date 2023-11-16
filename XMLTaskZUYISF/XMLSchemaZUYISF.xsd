@@ -4,12 +4,12 @@
 
     <!--Egyszerű típusok kigyűjtése, saját típusok meghatározása, megszorítás-->
     <xs:element name="Szakterület" type="xs:string" />
-    <xs:element name="Telefonszám" type="xs:string" />
+    <xs:element name="Telefonszám" type="telefonszámTípus" />
     <xs:element name="Ügyvéd_Név" type="xs:string" />
     <xs:element name="Lakcím" type="xs:string" />
     <xs:element name="Szülidő" type="xs:date" />
     <xs:element name="Kor" type="xs:int" />
-    <xs:element name="Priusz" type="xs:int" /> <!-- 1 vagy 0 | Van vagy nincs-->
+    <xs:element name="Priusz" type="priuszTipus" /> <!-- 1 vagy 0 | Van vagy nincs-->
     <xs:element name="Vád" type="xs:string" />
     <xs:element name="Típus" type="xs:string" />
     <xs:element name="Dátum" type="xs:date" />
