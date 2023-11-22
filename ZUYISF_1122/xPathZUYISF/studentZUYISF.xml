@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="studentZUYISF.xsd">
+
+    <student id="1">
+        <keresztnev>Bence</keresztnev>
+        <vezeteknev>Kovács</vezeteknev>
+        <becenev>Bencus</becenev>
+        <kor>20</kor>
+    </student>
+
+    <student id="2">
+        <keresztnev>Levente</keresztnev>
+        <vezeteknev>Nagy</vezeteknev>
+        <becenev>Levi</becenev>
+        <kor>21</kor>
+    </student>
+
+    <student id="3">
+        <keresztnev>Gábor</keresztnev>
+        <vezeteknev>Kiss</vezeteknev>
+        <becenev>Gabi</becenev>
+        <kor>23</kor>
+    </student>
+
+</class>
