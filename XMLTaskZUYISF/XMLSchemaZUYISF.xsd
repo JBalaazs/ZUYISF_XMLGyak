@@ -197,7 +197,11 @@
         <xs:field xpath="@Rögzítés" />
     </xs:keyref>
 
-
+    <!--Az 1:1 kapcsolat megvalósítás-->
+	<xs:unique name="Jegyző_Bíró_egyegy">
+        <xs:selector xpath="Bíró"/>
+        <xs:field xpath="@Jegyző"/>
+	</xs:unique>
 
     </xs:element>
 
