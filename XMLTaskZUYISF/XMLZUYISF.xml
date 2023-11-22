@@ -132,14 +132,14 @@ xs:noNamespaceSchemaLocation="XMLSchemaZUYISF.xsd">
     
     </Ítéletet_hoz>
 
-    <Ítéletet_hoz Ügy="3001" Bíró="1000">
+    <Ítéletet_hoz Ügy="3001" Bíró="1001">
         
         <Ügyek_száma>4</Ügyek_száma>
         <Ítélet>Bírság megfizetésére kötelezve, 100 000 forint összegben.</Ítélet>
 
     </Ítéletet_hoz>
 
-    <Ítéletet_hoz Ügy="3002" Bíró="1000"> <!-- Harmadik példány.-->
+    <Ítéletet_hoz Ügy="3002" Bíró="1002"> <!-- Harmadik példány.-->
         
         <Ügyek_száma>5</Ügyek_száma>
         <Ítélet>Távollétben végrehajtandó börtönbüntetés, valamint anyagi kártérítési kötelezettség.</Ítélet>
@@ -155,12 +155,44 @@ xs:noNamespaceSchemaLocation="XMLSchemaZUYISF.xsd">
 
     </Bíró>
 
+    <Bíró Bíró_ID="1001">
+        
+        <Bíró_Név>Dr. Tóth Ferenc</Bíró_Név> <!-- Második példány.-->
+        <Tapasztalat>16 év</Tapasztalat>
+        <Tanítványok>2</Tanítványok>
+
+    </Bíró>
+
+    <Bíró Bíró_ID="1002">
+        
+        <Bíró_Név>Dr. Kiss Emese</Bíró_Név> <!-- Harmadik példány.-->
+        <Tapasztalat>20 év</Tapasztalat>
+        <Tanítványok>5</Tanítványok>
+
+    </Bíró>
+
     <!--Jegyző-->
     <Jegyző Jegyző_ID="100" Rögzítés="1000">
     
         <Jegyző_Név>Dr. Tóth Ildikó</Jegyző_Név>
         <Munkaidő>Teljes munkaidő</Munkaidő>
         <Nyelvtudás>Angol, Német, Francia</Nyelvtudás>
+
+    </Jegyző>
+
+    <Jegyző Jegyző_ID="101" Rögzítés="1001"> <!-- Második példány.-->
+    
+        <Jegyző_Név>Dr. Magi Sándor</Jegyző_Név>
+        <Munkaidő>Rész munkaidő</Munkaidő>
+        <Nyelvtudás>Angol, Francia</Nyelvtudás>
+
+    </Jegyző>
+
+    <Jegyző Jegyző_ID="102" Rögzítés="1002"> <!-- Harmadik példány.-->
+    
+        <Jegyző_Név>Dr. Kovács János</Jegyző_Név>
+        <Munkaidő>Teljes munkaidő</Munkaidő>
+        <Nyelvtudás>Angol, Kínai, Francia</Nyelvtudás>
 
     </Jegyző>
 

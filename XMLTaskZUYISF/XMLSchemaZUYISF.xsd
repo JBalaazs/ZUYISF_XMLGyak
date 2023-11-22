@@ -133,8 +133,8 @@
                 <xs:element name="Bűnös-e" type="Bűnös-eTípus" minOccurs="1" maxOccurs="unbounded"/>
                 <xs:element name="Ügy" type="ÜgyTípus" minOccurs="1" maxOccurs="unbounded"/> 
                 <xs:element name="Ítéletet_hoz" type="Ítéletet_hozTípus" minOccurs="1" maxOccurs="unbounded"/>
-                <xs:element name="Bíró" type="BíróTípus" minOccurs="1" maxOccurs="1"/>
-                <xs:element name="Jegyző" type="JegyzőTípus" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="Bíró" type="BíróTípus" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="Jegyző" type="JegyzőTípus" minOccurs="1" maxOccurs="unbounded"/>
             </xs:sequence>
         </xs:complexType>
 
