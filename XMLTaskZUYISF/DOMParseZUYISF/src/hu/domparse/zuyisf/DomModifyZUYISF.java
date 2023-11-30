@@ -53,7 +53,6 @@ public class DomModifyZUYISF {
 			Node node = elements.item(i);	
 	        
 			//Ügyvéd
-	        
 			if (node.getAttributes().getNamedItem("Ügyvédi_ID") != null &&   
 					node.getAttributes().getNamedItem("Ügyvédi_ID").getTextContent().equals(elementId) ||   
 	            	    (node.getAttributes().getNamedItem("Védi") != null && 
@@ -139,7 +138,7 @@ public class DomModifyZUYISF {
 		}
 	            
 	            
-			// Írja vissza a módosított dokumentumot
+			//Írja vissza a módosított dokumentumot
 			TransformerFactory transformerFactory = TransformerFactory.newInstance();
 			Transformer transformer = transformerFactory.newTransformer();
 			DOMSource source = new DOMSource(doc);

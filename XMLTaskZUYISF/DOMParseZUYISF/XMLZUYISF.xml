@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><Tárgyalás_ZUYISF xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaZUYISF.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Tárgyalás_ZUYISF xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="XMLSchemaZUYISF.xsd">
 
     <!--Ügyvéd-->
-    <Ügyvéd Védi="456789AB" Ügyvédi_ID="1">
+    <Ügyvéd Ügyvédi_ID="1" Védi="456789AB">
     
         <Szakterület>Büntetőjog</Szakterület>
 
@@ -13,7 +16,7 @@
     
     </Ügyvéd>
 
-    <Ügyvéd Védi="785216CD" Ügyvédi_ID="2">
+    <Ügyvéd Ügyvédi_ID="2" Védi="785216CD">
     
         <Szakterület>Szabálysértési jog</Szakterület>
 
@@ -22,6 +25,18 @@
         <Telefonszám>+36207943157</Telefonszám>
 
         <Ügyvéd_Név>Dr. Tóth Eszter</Ügyvéd_Név>
+
+    </Ügyvéd>
+
+    <Ügyvéd Ügyvédi_ID="3" Védi="235125AK">
+    
+        <Szakterület>Kiberbűnözés elleni védelem</Szakterület>
+
+        <Telefonszám>+36201234567</Telefonszám>
+        <Telefonszám>+36701112233</Telefonszám>
+        <Telefonszám>+36105556677</Telefonszám>
+
+        <Ügyvéd_Név>Dr. Nagy Laura</Ügyvéd_Név>
 
     </Ügyvéd>
 
@@ -52,6 +67,19 @@
 
     </Vádlott>
 
+    <Vádlott Személyi_ig="235125AK">
+
+        <Lakcím>3545 Szerencs, Napsugár u. 35.</Lakcím>
+        <Szülidő>1985-11-15</Szülidő>
+        <Kor>37</Kor>
+        <Priusz>0</Priusz>
+        <Név>
+            <Vnév>Nagy</Vnév>
+            <Knév>Márta</Knév>
+        </Név>
+
+    </Vádlott>
+
     <!--Bűnös-e-->
     <Bűnös-e Vádlott="456789AB" Ügy="3000">
 
@@ -65,12 +93,18 @@
 
     </Bűnös-e>
 
+    <Bűnös-e Vádlott="235125AK" Ügy="3002"> 
+
+        <Vád>Kiberbűnözés, adathalászat és rendszeres támadás</Vád>
+
+    </Bűnös-e>
+
     <!--Ügy-->
     <Ügy Ügyszám_ID="3000">
     
         <Típus>Büntetőjogi eljárás</Típus>
         <Dátum>2023-11-09</Dátum>
-        <Állapot>Folyamatban</Állapot>
+        <Állapot>Elbírálva</Állapot>
     
     </Ügy>
 
@@ -82,36 +116,83 @@
     
     </Ügy>
 
+    <Ügy Ügyszám_ID="3002"> 
+    
+        <Típus>Kiberbűnözés eljárás</Típus>
+        <Dátum>2023-10-20</Dátum>
+        <Állapot>Elbírálás alatt</Állapot>
+
+    </Ügy>
+
     <!--Ítéletet_hoz-->
-    <Ítéletet_hoz Bíró="1000" Ügy="3000">
+    <Ítéletet_hoz Ügy="3000" Bíró="1000">
     
         <Ügyek_száma>6</Ügyek_száma>
-        <Ítélet>Bűnösnek találtatik a vádlott, 2 év felfüggesztett szabadságvesztésre ítélve.</Ítélet>
+        <Ítélet>Bűnösnek találtatuk a vádlott, 2 év felfüggesztett szabadságvesztésre ítélve.</Ítélet>
     
     </Ítéletet_hoz>
 
-    <Ítéletet_hoz Bíró="1000" Ügy="3001">
+    <Ítéletet_hoz Ügy="3001" Bíró="1001">
         
         <Ügyek_száma>4</Ügyek_száma>
         <Ítélet>Bírság megfizetésére kötelezve, 100 000 forint összegben.</Ítélet>
 
     </Ítéletet_hoz>
 
+    <Ítéletet_hoz Ügy="3002" Bíró="1002">
+        
+        <Ügyek_száma>5</Ügyek_száma>
+        <Ítélet>Távollétben végrehajtandó börtönbüntetés, valamint anyagi kártérítési kötelezettség.</Ítélet>
+
+    </Ítéletet_hoz>
+
     <!--Bíró-->
     <Bíró Bíró_ID="1000">
         
-        <Bíró_Név>Dr. Varga Klára</Bíró_Név>
+        <Bíró_Név>Dr. Varga Júlia</Bíró_Név>
         <Tapasztalat>15 év</Tapasztalat>
         <Tanítványok>3</Tanítványok>
+
+    </Bíró>
+
+    <Bíró Bíró_ID="1001">
+        
+        <Bíró_Név>Dr. Tóth Ferenc</Bíró_Név>
+        <Tapasztalat>16 év</Tapasztalat>
+        <Tanítványok>2</Tanítványok>
+
+    </Bíró>
+
+    <Bíró Bíró_ID="1002">
+        
+        <Bíró_Név>Dr. Kiss Emese</Bíró_Név>
+        <Tapasztalat>20 év</Tapasztalat>
+        <Tanítványok>5</Tanítványok>
 
     </Bíró>
 
     <!--Jegyző-->
     <Jegyző Jegyző_ID="100" Rögzítés="1000">
     
-        <Jegyző_Név>Dr. Tóth Lilla</Jegyző_Név>
+        <Jegyző_Név>Dr. Tóth Ildikó</Jegyző_Név>
         <Munkaidő>Teljes munkaidő</Munkaidő>
         <Nyelvtudás>Angol, Német, Francia</Nyelvtudás>
+
+    </Jegyző>
+
+    <Jegyző Jegyző_ID="101" Rögzítés="1001">
+    
+        <Jegyző_Név>Dr. Magi Sándor</Jegyző_Név>
+        <Munkaidő>Rész munkaidő</Munkaidő>
+        <Nyelvtudás>Angol, Francia</Nyelvtudás>
+
+    </Jegyző>
+
+    <Jegyző Jegyző_ID="102" Rögzítés="1002">
+    
+        <Jegyző_Név>Dr. Kovács János</Jegyző_Név>
+        <Munkaidő>Teljes munkaidő</Munkaidő>
+        <Nyelvtudás>Angol, Kínai, Francia</Nyelvtudás>
 
     </Jegyző>
 

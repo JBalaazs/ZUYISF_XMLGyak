@@ -74,7 +74,7 @@ private static void printNodeList(NodeList nodeList) {
 	    if (nNode.getNodeType() == Node.COMMENT_NODE) 
 	    {
 	    	
-	    	System.out.println("Comment: " + nNode.getTextContent());  // Kiírja a komment tartalmát
+	    	System.out.println("Comment: " + nNode.getTextContent());  //Kiírja a komment tartalmát
 	    	continue;
 	    	
 	    }
