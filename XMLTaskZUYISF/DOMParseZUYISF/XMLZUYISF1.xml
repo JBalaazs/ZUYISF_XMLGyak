@@ -6,7 +6,7 @@
         <Telefonszám>+36204579450</Telefonszám>
         <Telefonszám>+36304796185</Telefonszám>
         <Telefonszám>+36507963418</Telefonszám>
-        <Ügyvéd_Név>Dr. Kovács Mihály</Ügyvéd_Név>
+        <Ügyvéd_Név>Dr. Nagy Károly</Ügyvéd_Név>
     </Ügyvéd>
     <Ügyvéd Védi="785216CD" Ügyvédi_ID="2">
         <Szakterület>Szabálysértési jog</Szakterület>
@@ -47,7 +47,7 @@
         <Lakcím>3545 Szerencs, Napsugár u. 35.</Lakcím>
         <Szülidő>1985-11-15</Szülidő>
         <Kor>37</Kor>
-        <Priusz>0</Priusz>
+        <Priusz>1</Priusz>
         <Név>
             <Vnév>Nagy</Vnév>
             <Knév>Márta</Knév>

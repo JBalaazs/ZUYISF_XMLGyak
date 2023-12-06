@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<Tárgyalás_ZUYISF xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
-xs:noNamespaceSchemaLocation="XMLSchemaZUYISF.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Tárgyalás_ZUYISF xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaZUYISF.xsd">
 
     <!--Ügyvéd-->
-    <Ügyvéd Ügyvédi_ID="1" Védi="456789AB">
+    <Ügyvéd Védi="456789AB" Ügyvédi_ID="1">
     
         <Szakterület>Büntetőjog</Szakterület>
 
@@ -12,11 +9,11 @@ xs:noNamespaceSchemaLocation="XMLSchemaZUYISF.xsd">
         <Telefonszám>+36304796185</Telefonszám>
         <Telefonszám>+36507963418</Telefonszám>
 
-        <Ügyvéd_Név>Dr. Kovács Mihály</Ügyvéd_Név>
+        <Ügyvéd_Név>Dr. Nagy Károly</Ügyvéd_Név>
     
     </Ügyvéd>
 
-    <Ügyvéd Ügyvédi_ID="2" Védi="785216CD">
+    <Ügyvéd Védi="785216CD" Ügyvédi_ID="2">
     
         <Szakterület>Szabálysértési jog</Szakterület>
 
@@ -28,7 +25,7 @@ xs:noNamespaceSchemaLocation="XMLSchemaZUYISF.xsd">
 
     </Ügyvéd>
 
-    <Ügyvéd Ügyvédi_ID="3" Védi="235125AK">
+    <Ügyvéd Védi="235125AK" Ügyvédi_ID="3">
     
         <Szakterület>Kiberbűnözés elleni védelem</Szakterület>
 
@@ -72,7 +69,7 @@ xs:noNamespaceSchemaLocation="XMLSchemaZUYISF.xsd">
         <Lakcím>3545 Szerencs, Napsugár u. 35.</Lakcím>
         <Szülidő>1985-11-15</Szülidő>
         <Kor>37</Kor>
-        <Priusz>0</Priusz>
+        <Priusz>1</Priusz>
         <Név>
             <Vnév>Nagy</Vnév>
             <Knév>Márta</Knév>
@@ -125,21 +122,21 @@ xs:noNamespaceSchemaLocation="XMLSchemaZUYISF.xsd">
     </Ügy>
 
     <!--Ítéletet_hoz-->
-    <Ítéletet_hoz Ügy="3000" Bíró="1000">
+    <Ítéletet_hoz Bíró="1000" Ügy="3000">
     
         <Ügyek_száma>6</Ügyek_száma>
         <Ítélet>Bűnösnek találtatuk a vádlott, 2 év felfüggesztett szabadságvesztésre ítélve.</Ítélet>
     
     </Ítéletet_hoz>
 
-    <Ítéletet_hoz Ügy="3001" Bíró="1001">
+    <Ítéletet_hoz Bíró="1001" Ügy="3001">
         
         <Ügyek_száma>4</Ügyek_száma>
         <Ítélet>Bírság megfizetésére kötelezve, 100 000 forint összegben.</Ítélet>
 
     </Ítéletet_hoz>
 
-    <Ítéletet_hoz Ügy="3002" Bíró="1002">
+    <Ítéletet_hoz Bíró="1002" Ügy="3002">
         
         <Ügyek_száma>5</Ügyek_száma>
         <Ítélet>Távollétben végrehajtandó börtönbüntetés, valamint anyagi kártérítési kötelezettség.</Ítélet>

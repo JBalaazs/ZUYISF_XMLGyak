@@ -1,12 +1,18 @@
 package hu.domparse.zuyisf;
 
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 import javax.xml.parsers.DocumentBuilder;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
 import java.io.File;
+import java.io.StringWriter;
 import java.util.Scanner;
 
 public class DomQueryZUYISF 
@@ -30,7 +36,6 @@ public class DomQueryZUYISF
 		           
 		
 		        NodeList nodeList = doc.getElementsByTagName(input); //Megkeressük az inputhoz tartozókat.
-		        System.out.println("Talált " + input + " elemek száma: " + nodeList.getLength());
 		
 		        for (int temp = 0; temp < nodeList.getLength(); temp++) 
 		        {
@@ -41,41 +46,32 @@ public class DomQueryZUYISF
 		        {
 		                	
 		        	Element element = (Element) nNode;
-		            System.out.println("\nAktuális elem: " + element.getNodeName());
 		                    
 		                    
-			            if (element.hasAttributes()) //Attribútumok kiírása. 
+			            if (element.hasAttributes()) //Attribútumok. 
 			            { 
 			            	
-			            	System.out.println("Attribútumok:");
 			                for (int i = 0; i < element.getAttributes().getLength(); ++i) 
 			                {
 			                       	
 			                	Node attr = element.getAttributes().item(i);
-			                    System.out.println(" - " + attr.getNodeName() + ": " + attr.getNodeValue());
 			                            
 			                }
 			                
 			             }
 			
 			
-			             NodeList children = element.getChildNodes(); //Gyerek elemek kiírása.
-			             System.out.println("Gyermek elemek:");
-			             
+			             NodeList children = element.getChildNodes(); //Gyerek elemek.
+
 			             for (int i = 0; i < children.getLength(); i++) 
 			             {
 			                    	
 			            	 Node child = children.item(i);
-			                        
-			                 if (child.getNodeType() == Node.ELEMENT_NODE) 
-			                 {
-			                        	
-			                	 System.out.println(" - " + child.getNodeName() + ": " + child.getTextContent());
-			                            
-			                 }
 			                 
 			             }
 			        }
+		        
+		        	Kiiras(doc, (Element) nNode);
 		        
 		        }
 		        
@@ -85,6 +81,26 @@ public class DomQueryZUYISF
 		    	e.printStackTrace();
 		    }
 	    }
+	
+	//A Kiiras metódus implementációja.
+    private static void Kiiras(Document doc, Element element) {
+    	
+    	try {
+
+                TransformerFactory transformerFactory = TransformerFactory.newInstance();
+                Transformer transformer = transformerFactory.newTransformer();
+                transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
+                transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+
+                StringWriter writer = new StringWriter();
+                transformer.transform(new DOMSource(element), new StreamResult(writer));
+
+                System.out.println(writer.toString());
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
 
 

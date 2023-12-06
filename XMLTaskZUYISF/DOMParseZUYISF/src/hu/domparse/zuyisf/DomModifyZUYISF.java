@@ -2,10 +2,14 @@ package hu.domparse.zuyisf;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.StringWriter;
 import java.util.Scanner;
+
+import javax.lang.model.element.Element;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
@@ -145,7 +149,8 @@ public class DomModifyZUYISF {
 			StreamResult result = new StreamResult(new File("XMLZUYISF.xml"));
 			transformer.transform(source, result);
 			System.out.println(propertyName + " tulajdonság módosítva a következő értékre: " + newValue);
-	       
+			
+			Kiiras(doc, elementToModify, propertyName);
 		} 
 		else 
 		{
@@ -157,6 +162,24 @@ public class DomModifyZUYISF {
 	}
     
     
+	private static void Kiiras(Document doc, Node node, String propertyName) {
+	    try {
+	        TransformerFactory transformerFactory = TransformerFactory.newInstance();
+	        Transformer transformer = transformerFactory.newTransformer();
+	        transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
+	        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+
+	        //Az összes gyerekelem kiírása
+	        StringWriter writer = new StringWriter();
+	        transformer.transform(new DOMSource(node), new StreamResult(writer));
+	        System.out.println(writer.toString());
+
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+	}
+	
+	
     
 private static void printAttributes(String elementName) //Mindig kiírja az adott elemhez tartozó attribútumokat! 
 {	
