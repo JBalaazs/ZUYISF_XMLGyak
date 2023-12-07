@@ -1,0 +1,162 @@
+{
+  "ZUYISF_orarend": {
+    "ora": [
+{
+        "@tipus": "előadás",
+        "targy": "Szoftvertesztelés",
+        "oktato": "Hornyák Olivér",
+        "szak": "Mérnökinformatika",
+        "idopont": {
+          "tol": "10",
+          "nap": "Hétfő",
+          "ig": "12"
+        },
+        "@id": "1",
+        "helyszin": "In/103"
+      },
+{
+        "@tipus": "gyakorlat",
+        "targy": "Szoftvertesztelés",
+        "oktato": "Hornyák Olivér",
+        "szak": "Mérnökinformatika",
+        "idopont": {
+          "tol": "12",
+          "nap": "Hétfő",
+          "ig": "14"
+        },
+        "@id": "2",
+        "helyszin": "In/103"
+      },
+{
+        "@tipus": "előadás",
+        "targy": "WEB technológiák",
+        "oktato": "Agárdi Anita",
+        "szak": "Mérnökinformatika",
+        "idopont": {
+          "tol": "14",
+          "nap": "Hétfő",
+          "ig": "16"
+        },
+        "@id": "3",
+        "helyszin": "XXX A1 III. em. 305"
+      },
+{
+        "@tipus": "gyakorlat",
+        "targy": "WEB technológiák",
+        "oktato": "Agárdi Anita",
+        "szak": "Mérnökinformatika",
+        "idopont": {
+          "tol": "16",
+          "nap": "Hétfő",
+          "ig": "18"
+        },
+        "@id": "4",
+        "helyszin": "In/103"
+      },
+{
+        "@tipus": "előadás",
+        "targy": "Mesterséges intelligencia",
+        "oktato": "Tamás Judit",
+        "szak": "Mérnökinformatika",
+        "idopont": {
+          "tol": "10",
+          "nap": "Kedd",
+          "ig": "12"
+        },
+        "@id": "5",
+        "helyszin": "XXXII A1 magasfsz"
+      },
+{
+        "@tipus": "előadás",
+        "targy": "Adatkezelés XML-ben",
+        "oktato": "Bednarik László",
+        "szak": "Mérnökinformatika",
+        "idopont": {
+          "tol": "12",
+          "nap": "Kedd",
+          "ig": "14"
+        },
+        "@id": "6",
+        "helyszin": "XXXII A1 magasfsz"
+      },
+{
+        "@tipus": "előadás",
+        "targy": "WEB-es alkalmazások",
+        "oktato": "Árvai László Lajos",
+        "szak": "Mérnökinformatika",
+        "idopont": {
+          "tol": "14",
+          "nap": "Kedd",
+          "ig": "16"
+        },
+        "@id": "7",
+        "helyszin": "In/101"
+      },
+{
+        "@tipus": "gyakorlat",
+        "targy": "WEB-es alkalmazások",
+        "oktato": "Mileff Péter",
+        "szak": "Mérnökinformatika",
+        "idopont": {
+          "tol": "16",
+          "nap": "Kedd",
+          "ig": "18"
+        },
+        "@id": "8",
+        "helyszin": "In/101"
+      },
+{
+        "@tipus": "gyakorlat",
+        "targy": "Adatkezelés XML-ben",
+        "oktato": "Bednarik László",
+        "szak": "Mérnökinformatika",
+        "idopont": {
+          "tol": "10",
+          "nap": "Szerda",
+          "ig": "12"
+        },
+        "@id": "9",
+        "helyszin": "In/101"
+      },
+{
+        "@tipus": "előadás",
+        "targy": "Integrált vállalati rendszerek",
+        "oktato": "Samad Dadvandipour",
+        "szak": "Mérnökinformatika",
+        "idopont": {
+          "tol": "12",
+          "nap": "Szerda",
+          "ig": "14"
+        },
+        "@id": "10",
+        "helyszin": "X A1 II. em. 218"
+      },
+{
+        "@tipus": "gyakorlat",
+        "targy": "Integrált vállalati rendszerek",
+        "oktato": "Forrai Mónika",
+        "szak": "Mérnökinformatika",
+        "idopont": {
+          "tol": "14",
+          "nap": "Szerda",
+          "ig": "16"
+        },
+        "@id": "11",
+        "helyszin": "In/15"
+      },
+{
+        "@tipus": "gyakorlat",
+        "targy": "Mesterséges intelligencia",
+        "oktato": "Fazekas Levente",
+        "szak": "Mérnökinformatika",
+        "idopont": {
+          "tol": "10",
+          "nap": "Csütörtök",
+          "ig": "12"
+        },
+        "@id": "12",
+        "helyszin": "I. A2 fsz."
+      }
+    ]
+  }
+}
